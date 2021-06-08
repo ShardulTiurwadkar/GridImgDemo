@@ -1,0 +1,32 @@
+*{
+	background-color: #F7DC6F;
+	
+	
+}
+
+
+img{
+	 max-width: 100%;
+    max-height: 100%;
+}
+
+.container{
+	display: grid;
+	align-items: center;
+	grid-row-gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(214.74px,1fr));
+	grid-template-rows: 150px;
+	grid-auto-flow: dense;
+}
+
+.horizontal{
+	grid-column: span 2;
+}
+
+.vertical{
+	grid-row: span 2;
+}
+.big{
+	grid-column: span 2 ;
+	grid-row: span 2;
+}
